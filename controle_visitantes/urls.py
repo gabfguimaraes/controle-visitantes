@@ -23,5 +23,10 @@ urlpatterns = [
         "visitantes/<int:id>/",
         visitantes.views.informacoes_visitante,
         name="informacoes_visitante",
+    ),
+    path(
+        "visitantes/<int:id>/finalizar-visita/",
+        visitantes.views.finalizar_visita,
+        name="finalizar_visita"
     )
 ]
