@@ -1,0 +1,16 @@
+# Arquivos de compilação
+*.pyc
+
+# Ambientes virtuais
+venv/
+
+# Arquivos de configuração
+.vscode/
+.idea/
+
+# Arquivos de logs e cache
+logs/
+_pycache_/
+
+# Arquivo de configuração local
+.env
